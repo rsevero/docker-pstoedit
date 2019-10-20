@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  app:
+    image: rsev/pstoedit
+    volumes:
+      - type: bind
+        source: /docker_vols/egb-symbols
+        target: /egb-symbols
